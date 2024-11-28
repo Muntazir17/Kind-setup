@@ -9,6 +9,7 @@ echo "#                                                                         
 echo "############################################################################"
 echo ""
 
+
 # Step 1: Download the latest stable version of kubectl
 echo "Downloading the latest version of kubectl..."
 KUBECTL_VERSION=$(curl -L -s https://dl.k8s.io/release/stable.txt)
